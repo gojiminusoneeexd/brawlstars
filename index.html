@@ -1,0 +1,539 @@
+<!--
+  ======================================================================
+  INSTITUCIÓN: CBTis 166 Pablo Torres Burgos
+  ----------------------------------------------------------------------
+  * Estudiante: Herrera Ayala Enrique Alexander
+  * Grupo: 3B PRO VESP
+  * Actividad: Portal temático "Brawl Stars" (barra superior, collage,
+    carrusel, contenido incrustado y formulario)
+  ====================================================================== -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl Stars - Portal Fan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="top-bar" id="inicio">
+        <div class="top-bar-container">
+            <div class="top-contacts">
+                <span class="top-item">📍 Supercell · Helsinki, Finlandia</span>
+                <span class="top-item whatsapp">📱 Gratis en <strong>iOS y Android</strong></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- BARRA DE NAVEGACIÓN PRINCIPAL -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#inicio">
+                    <img src="img/logo.jpg" alt="Brawl Stars" class="brand-logo-img">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#modos">Modos y retos</a>
+                <a href="#historia">Historia</a>
+                <a href="#creadores">Creadores</a>
+                <a href="#multimedia">Multimedia</a>
+                <a href="login.html" class="btn-nav-login">Jugadores</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- PORTADA CON COLLAGE -->
+    <section class="hero-section">
+        <div class="hero-container">
+
+            <div class="hero-text-side">
+                <span class="hero-tag">¡Batallas 3 vs 3 en menos de 3 minutos!</span>
+                <h1>Brawl Stars, el shooter multijugador de Supercell</h1>
+                <p>Elige a tu Brawler, forma equipo y compite en modos como Gem Grab, Brawl Ball, Showdown y Heist. Un juego creado en Helsinki que llegó al mundo el 12 de diciembre de 2018.</p>
+
+                <div class="hero-cta-box">
+                    <a href="#modos" class="btn-yellow">Conoce los modos →</a>
+                    <div class="hero-benefits">
+                        <span>✓ Desarrollado por Supercell</span>
+                        <span>✓ Disponible en iOS y Android</span>
+                        <span>✓ Torneos oficiales y Campeonato Mundial</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image-side">
+                <div class="image-collage">
+                    <div class="collage-main">
+                        <img src="img/hero-principal.jpg" alt="Brawlers de Brawl Stars">
+                    </div>
+                    <div class="collage-sub">
+                        <img src="img/hero-2.jpg" alt="Modos de juego">
+                        <img src="img/hero-3.jpg" alt="Campeonato">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MODOS DE JUEGO Y RETOS -->
+    <section id="modos" class="careers-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Modos de juego y retos</h2>
+                <p>Cada modo tiene su propio objetivo. Estos son los principales y el reto competitivo más famoso</p>
+            </div>
+
+            <div class="careers-grid">
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/modo-gemgrab.jpg" alt="Gem Grab">
+                    </div>
+                    <div class="career-content">
+                        <h3>Gem Grab</h3>
+                        <p>3 vs 3. Controla la mina central, junta 10 gemas con tu equipo y aguántalas unos 16 segundos sin que te las quiten.</p>
+                    </div>
+                </div>
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/modo-brawlball.jpg" alt="Brawl Ball">
+                    </div>
+                    <div class="career-content">
+                        <h3>Brawl Ball</h3>
+                        <p>El fútbol de Brawl Stars: dos equipos de tres pelean por el balón y gana quien anote 2 goles primero.</p>
+                    </div>
+                </div>
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/modo-showdown.jpg" alt="Showdown (Solo y Dúo)">
+                    </div>
+                    <div class="career-content">
+                        <h3>Showdown (Solo y Dúo)</h3>
+                        <p>Battle royale: recoge cubos de poder, evita la nube venenosa que se cierra y sé el último en pie.</p>
+                    </div>
+                </div>
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/modo-heist.jpg" alt="Heist">
+                    </div>
+                    <div class="career-content">
+                        <h3>Heist</h3>
+                        <p>Destruye la caja fuerte enemiga antes de que ellos destruyan la tuya. Ataque y defensa al mismo tiempo.</p>
+                    </div>
+                </div>
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/modo-bounty.jpg" alt="Bounty">
+                    </div>
+                    <div class="career-content">
+                        <h3>Bounty</h3>
+                        <p>Elimina rivales para ganar estrellas. Si hay empate, gana el equipo que tenga la estrella azul.</p>
+                    </div>
+                </div>
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/modo-hotzone.jpg" alt="Hot Zone">
+                    </div>
+                    <div class="career-content">
+                        <h3>Hot Zone</h3>
+                        <p>Rey de la colina: quédate dentro de las zonas para llenar el porcentaje de captura. Gana el equipo con más progreso.</p>
+                    </div>
+                </div>
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/modo-knockout.jpg" alt="Knockout">
+                    </div>
+                    <div class="career-content">
+                        <h3>Knockout</h3>
+                        <p>Sin reapariciones: si te eliminan, esperas a la siguiente ronda. Cada error cuenta.</p>
+                    </div>
+                </div>
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/reto-campeonato.jpg" alt="Reto de Campeonato">
+                    </div>
+                    <div class="career-content">
+                        <h3>Reto de Campeonato</h3>
+                        <p>El reto más famoso: consigue 15 victorias antes de sufrir 3 derrotas y pelea por llegar a las finales mundiales.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- LÍNEA DE TIEMPO -->
+    <section id="historia" class="timeline-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>La historia de Brawl Stars</h2>
+                <p>Del primer prototipo al Campeonato Mundial</p>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-year">2010</div>
+                <p>Se funda Supercell en Helsinki, Finlandia, por seis cofundadores: Ilkka Paananen, Mikko Kodisoja, Niko Derome, Visa Forstén, Lassi Leppinen y Petri Styrman.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2014</div>
+                <p>Un pequeño equipo de Supercell empieza a trabajar en lo que después sería Brawl Stars. El primer prototipo fue de fantasía y el proyecto tuvo el nombre en clave “Laser”.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">15 de junio de 2017</div>
+                <p>Soft launch en iOS en Canadá, un día después de que el juego se presentara en una transmisión de YouTube.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">14 de noviembre de 2018</div>
+                <p>Supercell anuncia el lanzamiento global y logra más de 5 millones de preregistros.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">12 de diciembre de 2018</div>
+                <p>Brawl Stars sale al mundo en iOS y Android. Fue el quinto juego global de Supercell.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">15 y 16 de noviembre de 2019</div>
+                <p>Primer Campeonato Mundial en Busan, Corea del Sur. Nova Esports ganó 3–0 la final.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CREADORES (CARRUSEL CONTROLADO POR JS) -->
+    <section id="creadores" class="teachers-section">
+        <div class="teachers-container">
+
+            <div class="teachers-header">
+                <div>
+                    <span class="teachers-tag">¿QUIÉN CREÓ BRAWL STARS?</span>
+                    <h2>Las personas detrás del juego</h2>
+                    <p>Brawl Stars fue desarrollado y publicado por Supercell. Ellos son sus seis cofundadores y dos caras clave del equipo del juego. Usa los botones para recorrer la lista:</p>
+                </div>
+                <div class="teachers-nav-buttons">
+                    <button id="btn-prev" class="nav-btn">‹</button>
+                    <button id="btn-next" class="nav-btn">›</button>
+                </div>
+            </div>
+
+            <div class="teachers-grid" id="teachers-track">
+
+                <div class="teacher-card">
+                    <img src="img/creador-paananen.jpg" alt="Ilkka Paananen">
+                    <div class="teacher-info">
+                        <h3>Ilkka Paananen</h3>
+                        <p>Cofundador y CEO de Supercell. Estudió ingeniería industrial en Helsinki y apostó por equipos pequeños con libertad creativa.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <img src="img/creador-kodisoja.jpg" alt="Mikko Kodisoja">
+                    <div class="teacher-info">
+                        <h3>Mikko Kodisoja</h3>
+                        <p>Cofundador de Supercell. Antes de fundarlo trabajó con Paananen en la compañía de juegos móviles Sumea.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <img src="img/creador-derome.jpg" alt="Niko Derome">
+                    <div class="teacher-info">
+                        <h3>Niko Derome</h3>
+                        <p>Uno de los seis cofundadores de Supercell, creada en Helsinki, Finlandia, en 2010.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <img src="img/creador-forsten.jpg" alt="Visa Forstén">
+                    <div class="teacher-info">
+                        <h3>Visa Forstén</h3>
+                        <p>Cofundador de Supercell, la empresa detrás de Clash of Clans, Clash Royale y Brawl Stars.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <img src="img/creador-leppinen.jpg" alt="Lassi Leppinen">
+                    <div class="teacher-info">
+                        <h3>Lassi Leppinen</h3>
+                        <p>Cofundador de Supercell, estudio que trabaja con pequeños equipos independientes llamados “celdas”.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <img src="img/creador-styrman.jpg" alt="Petri Styrman">
+                    <div class="teacher-info">
+                        <h3>Petri Styrman</h3>
+                        <p>Cofundador de Supercell desde 2010. Su visión: pocos juegos, pero de altísima calidad.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <img src="img/creador-keienburg.jpg" alt="Frank Keienburg">
+                    <div class="teacher-info">
+                        <h3>Frank Keienburg</h3>
+                        <p>Game Lead de Brawl Stars durante el lanzamiento global de 2018, tras más de 500 días de pruebas en soft launch.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <img src="img/creador-lighton.jpg" alt="Ryan Lighton">
+                    <div class="teacher-info">
+                        <h3>Ryan Lighton</h3>
+                        <p>Community Manager de Brawl Stars. Fue la cara del juego ante la comunidad durante la beta y el lanzamiento mundial.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MULTIMEDIA: VIDEO Y MAPA INCRUSTADOS -->
+    <section id="multimedia" class="embed-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Multimedia</h2>
+                <p>Mira un video del juego y conoce dónde nació</p>
+            </div>
+        </div>
+
+        <div class="embed-grid">
+            <div class="embed-card">
+                <h3>Video de Brawl Stars</h3>
+                <p>Reproductor de YouTube incrustado.</p>
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/rQjiH-IbVZE"
+                        title="Video de Brawl Stars"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="embed-card">
+                <h3>Supercell nació en Helsinki</h3>
+                <p>La empresa fue fundada en Helsinki, Finlandia, en 2010.</p>
+                <div class="map-container">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Helsinki%2C%20Finland&output=embed"
+                        style="border:0;"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa de Helsinki, Finlandia">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARRUSEL AUTOMÁTICO (cambia cada 4 segundos) -->
+        <div class="auto-carousel">
+                <div class="auto-slide active">
+                    <img src="img/galeria-1.jpg" alt="Brawlers en acción">
+                    <div class="auto-caption">Brawlers en acción</div>
+                </div>
+                <div class="auto-slide">
+                    <img src="img/galeria-2.jpg" alt="Mapas y modos de juego">
+                    <div class="auto-caption">Mapas y modos de juego</div>
+                </div>
+                <div class="auto-slide">
+                    <img src="img/galeria-3.jpg" alt="Eventos y colaboraciones">
+                    <div class="auto-caption">Eventos y colaboraciones</div>
+                </div>
+                <div class="auto-slide">
+                    <img src="img/galeria-4.jpg" alt="Brawl Stars Championship">
+                    <div class="auto-caption">Brawl Stars Championship</div>
+                </div>
+
+            <button class="auto-carousel-btn prev" onclick="cambiarSlideAuto(-1)" aria-label="Imagen anterior">&#10094;</button>
+            <button class="auto-carousel-btn next" onclick="cambiarSlideAuto(1)" aria-label="Imagen siguiente">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section class="hero-section">
+        <div class="hero-container">
+
+            <div class="hero-text-side">
+                <span class="hero-tag">¡Prepárate para el reto!</span>
+                <h1 class="hero-title-custom">¿Listo para el Reto de Campeonato?</h1>
+                <p class="hero-desc-custom">
+                    Déjanos tus datos y arma tu equipo. En el reto debes ganar 15 partidas antes de perder 3 para pelear por un lugar en las finales.
+                </p>
+
+                <div class="hero-subtitle-custom">
+                    Lo que debes saber del Campeonato:
+                </div>
+                <div class="hero-benefits hero-benefits-column">
+                    <span>✓ Fase 1: reto dentro del juego (15 victorias, máximo 2 derrotas)</span>
+                    <span>✓ Fase 2: clasificatorios mensuales por región</span>
+                    <span>✓ Fase 3: finales regionales mensuales</span>
+                    <span>✓ Fase 4: Finales Mundiales</span>
+                </div>
+            </div>
+
+            <div class="hero-form-side">
+                <div class="cbtis-hero-form-card">
+
+                    <h3 class="form-card-title">
+                        Regístrate como Brawler
+                    </h3>
+
+                    <form id="form-hero-informes" action="#" method="POST">
+
+                        <!-- 1. Nombre -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_nombre" name="nombre" required placeholder="Nombre" class="form-control-input">
+                        </div>
+
+                        <!-- 2. Apellido -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_apellido" name="apellido" required placeholder="Apellido" class="form-control-input">
+                        </div>
+
+                        <!-- 3. Correo -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="email" id="info_email" name="email" required placeholder="Correo electrónico" class="form-control-input">
+                        </div>
+
+                        <!-- 4. Teléfono -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="tel" id="info_telefono" name="telefono" required placeholder="Teléfono o WhatsApp" class="form-control-input">
+                        </div>
+
+                        <!-- 5. Select: Plataforma -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_nivel" name="plataforma" required class="form-control-select">
+                                <option value="">¿En qué dispositivo juegas?</option>
+                                <option value="ios">iOS (iPhone / iPad)</option>
+                                <option value="android">Android</option>
+                            </select>
+                        </div>
+
+                        <!-- 6. Select: Modo favorito -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_carrera" name="modo" required class="form-control-select">
+                                <option value="">Elige tu modo favorito</option>
+                                <option value="gemgrab">Gem Grab</option>
+                                <option value="brawlball">Brawl Ball</option>
+                                <option value="showdown">Showdown</option>
+                                <option value="heist">Heist</option>
+                                <option value="bounty">Bounty</option>
+                                <option value="hotzone">Hot Zone</option>
+                                <option value="knockout">Knockout</option>
+                            </select>
+                        </div>
+
+                        <!-- 7. Fecha -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <label for="info_fecha" class="form-date-label">Fecha en la que quieres iniciar el reto:</label>
+                            <input type="date" id="info_fecha" name="fecha" required class="form-control-date">
+                        </div>
+
+                        <!-- 8. Textarea -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <textarea id="info_comentarios" name="comentarios" rows="2" placeholder="Cuéntanos cuál es tu Brawler favorito..." class="form-control-textarea"></textarea>
+                        </div>
+
+                        <!-- 9. Checkbox -->
+                        <div class="cbtis-input-group form-group-checkbox">
+                            <input type="checkbox" id="info_terminos" name="terminos" required class="form-checkbox-input">
+                            <label for="info_terminos" class="form-checkbox-label">
+                                Acepto recibir noticias del juego y el aviso de privacidad.
+                            </label>
+                        </div>
+
+                        <!-- 10. Botón -->
+                        <button type="submit" class="cbtis-btn-ingresar form-submit-btn">
+                            ¡Quiero el reto!
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- UNIVERSO SUPERCELL: MARQUESINA DOBLE -->
+    <section class="convenios-section">
+        <div class="convenios-container">
+
+            <div class="section-header">
+                <span class="teachers-tag convenience-tag-custom">EL UNIVERSO DE BRAWL STARS</span>
+                <h2>Juegos hermanos y colaboraciones</h2>
+                <p>Los otros juegos de Supercell, las marcas con las que Brawl Stars ha colaborado y más modos de juego.</p>
+            </div>
+
+            <!-- LÍNEA 1: izquierda -->
+            <div class="marquee-wrapper">
+                <div class="marquee-track marquee-track-top">
+                    <div class="convenio-card">🎲 Hay Day</div>
+                    <div class="convenio-card">⚔️ Clash of Clans</div>
+                    <div class="convenio-card">🏰 Boom Beach</div>
+                    <div class="convenio-card">👑 Clash Royale</div>
+                    <div class="convenio-card">🦸 Squad Busters</div>
+                    <div class="convenio-card">🐻 LINE FRIENDS</div>
+                    <div class="convenio-card">🎤 BT21</div>
+                    <div class="convenio-card">🦖 Godzilla</div>
+                    <div class="convenio-card">🧽 SpongeBob SquarePants</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">🎲 Hay Day</div>
+                    <div class="convenio-card">⚔️ Clash of Clans</div>
+                    <div class="convenio-card">🏰 Boom Beach</div>
+                    <div class="convenio-card">👑 Clash Royale</div>
+                    <div class="convenio-card">🦸 Squad Busters</div>
+                    <div class="convenio-card">🐻 LINE FRIENDS</div>
+                    <div class="convenio-card">🎤 BT21</div>
+                    <div class="convenio-card">🦖 Godzilla</div>
+                    <div class="convenio-card">🧽 SpongeBob SquarePants</div>
+                </div>
+            </div>
+
+            <!-- LÍNEA 2: derecha -->
+            <div class="marquee-wrapper marquee-wrapper-spacing">
+                <div class="marquee-track marquee-track-bottom">
+                    <div class="convenio-card">⭐ Bounty</div>
+                    <div class="convenio-card">🔥 Hot Zone</div>
+                    <div class="convenio-card">💥 Knockout</div>
+                    <div class="convenio-card">🤖 Siege</div>
+                    <div class="convenio-card">🏆 Wipeout</div>
+                    <div class="convenio-card">👥 Duo Showdown</div>
+                    <div class="convenio-card">🧍 Solo Showdown</div>
+                    <div class="convenio-card">🔒 Heist</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">⭐ Bounty</div>
+                    <div class="convenio-card">🔥 Hot Zone</div>
+                    <div class="convenio-card">💥 Knockout</div>
+                    <div class="convenio-card">🤖 Siege</div>
+                    <div class="convenio-card">🏆 Wipeout</div>
+                    <div class="convenio-card">👥 Duo Showdown</div>
+                    <div class="convenio-card">🧍 Solo Showdown</div>
+                    <div class="convenio-card">🔒 Heist</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-info">
+                <p>Sitio de fans de Brawl Stars &copy; 2026 · Brawl Stars es una marca de Supercell</p>
+                <p class="footer-author">Desarrollado por: Gaona Castro Eduardo Baltazar (3B PRO VESP)</p>
+                <p class="fecha-consulta">Fecha de consulta: <time id="fecha-dinamica"></time></p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://facebook.com" target="_blank" class="social-icon" title="Facebook">f</a>
+                <a href="https://instagram.com" target="_blank" class="social-icon" title="Instagram">ig</a>
+                <a href="https://whatsapp.com" target="_blank" class="social-icon" title="WhatsApp">💬</a>
+                <a href="https://youtube.com" target="_blank" class="social-icon" title="YouTube"> ▶</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
